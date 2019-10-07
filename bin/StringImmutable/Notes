@@ -1,0 +1,11 @@
+Q : Why string in immutable and final?
+
+1. String pool in method area 
+
+ String pool : String is the most frequently used data type  in java programs
+ 
+ EX : String S1 = "TEST";
+ 	  String S2 = "TEST";
+ 	  String S3 = "SELENIUM";
+ 	  
+Immutable : we cannot change the value of strings

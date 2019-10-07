@@ -1,0 +1,7 @@
+java Memory Management : 
+
+1.java meomry is divided into heap memory and stack memory. 
+2. Heap memory is divided into two parts : young generation and old generation
+
+when ever we create an object of a class the same is stored in young generation 
+
