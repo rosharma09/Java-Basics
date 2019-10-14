@@ -9,3 +9,16 @@ Q : Why string in immutable and final?
  	  String S3 = "SELENIUM";
  	  
 Immutable : we cannot change the value of strings
+
+Steps to push the code : 
+
+1. git init
+2. git add remote origin <ssh:url>
+3. git status
+4. git add .
+5.git status
+6. git commit -m "Comment"
+7. git push origin master
+
+
+in case when we are pushing the code , we need to provide the SSH key

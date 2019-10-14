@@ -19,3 +19,6 @@ Steps to push the code :
 5.git status
 6. git commit -m "Comment"
 7. git push origin master
+
+
+in case when we are pushing the code , we need to provide the SSH key
