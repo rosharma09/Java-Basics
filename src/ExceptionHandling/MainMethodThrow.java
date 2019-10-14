@@ -4,6 +4,8 @@ public class MainMethodThrow {
 
 	public static void main(String[] args) {
 		
+		MainMethodThrow obj = new MainMethodThrow();
+		
 		try {
 			sum();
 		} catch (ArithmeticException e) {
