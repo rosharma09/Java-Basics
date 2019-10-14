@@ -9,7 +9,7 @@ public class ThrowsConcept {
 		
 		ThrowsConcept obj1 = new ThrowsConcept();
 		try {
-			obj1.sum();
+			obj1.sum(); // calling method
 		} catch (ArithmeticException e) {
 			System.out.println("Exception caught");
 		}
@@ -17,11 +17,12 @@ public class ThrowsConcept {
 	}
 
 	public void sum() throws ArithmeticException{
-		div(); 
+		div(); // called method
 	}
 	
 	public void div() throws ArithmeticException{
 		int i = 9/0;  // exception is coming here 
+		System.out.println("Line after the exception thrown ");
 	}
 	
 	// this is the exception hierarchy 
