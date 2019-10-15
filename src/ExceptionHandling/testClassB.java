@@ -6,8 +6,12 @@ public class testClassB extends TestClassA{
 	
 	@Override
 	public void Test() {
-		super();
 		System.out.println("This is child class test method");
-		System.out.println(a/0);
+		try {
+			System.out.println(a/0);
+		} catch (ArithmeticException e) {
+			System.out.println("Number cannot be divided by ZERO");
+		}
+		System.out.println("Line after the exception");
 	}
 }

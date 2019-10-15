@@ -6,6 +6,10 @@ public class ExceptionHandlingConcept {
 	static ExceptionHandlingConcept obj;
 
 	public static void main(String[] args) {
+		
+		// we have throwable class which is parent class of error and exception class
+		
+		// we can use error or execption in the catch block
 
 		// int i = 9/0;
 		// System.out.println(i); // Uncaught exception, since eclipse is not showing
