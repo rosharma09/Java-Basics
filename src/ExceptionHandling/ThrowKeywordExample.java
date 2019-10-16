@@ -8,7 +8,19 @@ public class ThrowKeywordExample {
 		
 		System.out.println("Sample program to throw an exception");
 		
-		throw new Exception("An unkownn exception occurred");
+		//throw new Exception("An unkownn exception occurred");
+		
+		// Not a good practise to handle throw with throws keyword, better to use try catch block
+		
+		String exec_flag="N";
+		
+		if (exec_flag.equals("N")) {
+			try {
+				throw new Exception("Executable flag is set to N");
+			} catch (Throwable e) {
+				System.out.println("Executable flag is set to N");
+			}
+		}
 	}
 
 }
