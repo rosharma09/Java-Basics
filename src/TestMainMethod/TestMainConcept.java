@@ -11,6 +11,8 @@ public class TestMainConcept {
 
 	// JVM will try to find the exact main(String[] args) in the program, if not
 	// found the the program will not be executed
+	
+	// we cannot override the main method
 	public static void main(String[] args) {
 
 		System.out.println("Main Method");
