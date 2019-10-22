@@ -10,7 +10,7 @@ public class DuplicateWordsInAString {
 
 	public static void main(String[] args) {
 		
-		findDuplicateWords("java is the best programming language please learn java as it is important");
+		findDuplicateWords("java is is the best the best programming language please learn java as it is important");
 
 	}
 
