@@ -7,6 +7,8 @@ import java.util.Set;
 public class DuplicateWordsInAString {
 
 	// java is the best programming language please learn java as it is important
+	
+	// This is just a sample program to find the occurance of a word in a string
 
 	public static void main(String[] args) {
 		
