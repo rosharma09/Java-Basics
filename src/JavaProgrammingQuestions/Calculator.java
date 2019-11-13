@@ -11,8 +11,37 @@ public class Calculator implements SampleCalculator {
 	static int res;
 	static int num1, num2, choice;
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
+		SampleCalculator SampleCalculatorObject = new SampleCalculator() {
+			
+			@Override
+			public void substract(int a, int b) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void multiply(int a, int b) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void division(int a, int b) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void add(int a, int b) {
+				// TODO Auto-generated method stub
+				
+			}
+		};
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("###Sample Calculator###");
@@ -39,7 +68,7 @@ public class Calculator implements SampleCalculator {
 			System.out.println("Please enter 2nd Number : ");
 			num2 = scan.nextInt();
 			
-			AddressHelper.
+			SampleCalculatorObject.add(num1, num2);
 
 			break;
 
