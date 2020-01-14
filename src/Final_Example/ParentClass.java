@@ -2,7 +2,7 @@ package Final_Example;
 
 public final class ParentClass {
 	
-	// This is the parent class, that can be inherited by the child class.
+	// This is the parent class, that cannot be inherited by the child class.
 	
 	// parent class method 
 	

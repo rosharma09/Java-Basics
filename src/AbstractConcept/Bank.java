@@ -4,7 +4,7 @@ public abstract class Bank {
 
 	// abstract class : can have abs method and non abs mehtod 
 	
-	// when we need to define a class we need to use abstract keyword
+	// when we need to define a class as abstract we need to use abstract keyword
 
 	// Rule : when we define a class as abstract then we need to define atleast one
 	// method that is abstract in nature

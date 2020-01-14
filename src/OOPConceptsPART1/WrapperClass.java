@@ -22,7 +22,7 @@ public class WrapperClass {
 		Double i =Double.parseDouble(y);
 		System.out.println(i);
 		
-		// we do not have any chaaracter parsing in wrapper class
+		// we do not have any character parsing in wrapper class
 		
 		String res = "True";
 		Boolean res1 = Boolean.parseBoolean(res);
